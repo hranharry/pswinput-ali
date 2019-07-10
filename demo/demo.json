@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "password-input": "/src/password-input/password-input"
+  }
+}

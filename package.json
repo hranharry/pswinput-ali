@@ -1,0 +1,36 @@
+{
+  "name": "pswinput-ali",
+  "version": "0.0.1",
+  "description": "支付宝小程序的密码输入格组件",
+  "scripts": {
+    "build": "rm -rf lib && cp -r src lib && babel src --out-dir lib",
+    "pub": "npm run build && npm publish"
+  },
+  "files": [
+    "lib"
+  ],
+  "babel": {
+    "presets": [
+      [
+        "es2015",
+        {
+          "modules": false
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "keywords": [
+    "alipay",
+    "miniapp",
+    "components",
+    "password",
+    "input",
+    "tab"
+  ],
+  "author": "hranharry",
+  "license": "ISC"
+}
