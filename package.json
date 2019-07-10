@@ -1,10 +1,14 @@
 {
   "name": "pswinput-ali",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "支付宝小程序的密码输入格组件",
   "scripts": {
     "build": "rm -rf lib && cp -r src lib && babel src --out-dir lib",
     "pub": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hranharry/pswinput-ali.git"
   },
   "files": [
     "lib"
